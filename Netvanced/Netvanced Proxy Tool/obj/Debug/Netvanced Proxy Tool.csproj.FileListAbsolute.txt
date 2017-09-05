@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2015\Projects\Netvanced\Netvanced Proxy Tool\bin\Debug\Netvanced Proxy Tool.exe.config
+c:\users\user\documents\visual studio 2015\Projects\Netvanced\Netvanced Proxy Tool\bin\Debug\Netvanced Proxy Tool.exe
+c:\users\user\documents\visual studio 2015\Projects\Netvanced\Netvanced Proxy Tool\bin\Debug\Netvanced Proxy Tool.pdb
+c:\users\user\documents\visual studio 2015\Projects\Netvanced\Netvanced Proxy Tool\obj\Debug\Netvanced Proxy Tool.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\Netvanced\Netvanced Proxy Tool\obj\Debug\Netvanced_Proxy_Tool.NetvancedForm.resources
+c:\users\user\documents\visual studio 2015\Projects\Netvanced\Netvanced Proxy Tool\obj\Debug\Netvanced_Proxy_Tool.Properties.Resources.resources
+c:\users\user\documents\visual studio 2015\Projects\Netvanced\Netvanced Proxy Tool\obj\Debug\Netvanced Proxy Tool.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2015\Projects\Netvanced\Netvanced Proxy Tool\obj\Debug\Netvanced Proxy Tool.exe
+c:\users\user\documents\visual studio 2015\Projects\Netvanced\Netvanced Proxy Tool\obj\Debug\Netvanced Proxy Tool.pdb

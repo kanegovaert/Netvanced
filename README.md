@@ -1,2 +1,2 @@
 # Netvanced
-An Advanced Proxy Scraper With Features Like (Scrape Proxies From File, Gather Proxies From Sources, Check Proxies, And Use Custom Sources!))
+An advanced proxy tool in development. Gather, scrape and check proxies with multithreaded ease.

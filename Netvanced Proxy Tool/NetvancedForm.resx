@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="backgroundGatherer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="TB_ScrapeInput.Text" xml:space="preserve">
+    <value>IP address 	Anonymity level 	Checked time 	Country
+97.77.104.22:80	anonymous 	Feb-16, 22:14	United States
+183.88.42.122:8080	anonymous 	Feb-15, 19:17	Thailand
+198.50.171.121:8888	anonymous 	Feb-16, 08:07	Canada
+183.89.44.24:8080	anonymous 	Feb-15, 22:14	Thailand
+151.80.197.192:80	anonymous 	Feb-16, 17:09	France
+5.196.7.246:80	anonymous 	Feb-17, 10:52	France
+180.254.72.152:8080	anonymous 	Feb-17, 01:18	Indonesia
+185.166.238.219:80	anonymous 	Feb-17, 16:49	
+213.108.201.82:80	anonymous 	Feb-16, 13:23	Russian Federation
+8.29.210.46:3128	anonymous 	Feb-16, 16:24	United States
+180.183.59.58:8080	anonymous 	Feb-17, 10:21	Thailand
+186.138.164.62:80	anonymous 	Feb-16, 18:54	Argentina
+80.14.219.102:8080	anonymous 	Feb-15, 19:29	France
+200.54.108.54:80	anonymous 	Feb-16, 07:50	Chile
+223.204.231.112:8080	anonymous 	Feb-15, 22:15	Thailand
+83.22.244.139:8080	anonymous 	Feb-17, 01:31	Poland
+183.88.112.120:8080	anonymous 	Feb-16, 03:01	Thailand
+103.21.77.118:8080	anonymous 	Feb-16, 13:59	India
+171.97.38.78:8080	anonymous 	Feb-16, 22:17	Thailand
+183.88.26.142:8080	anonymous 	Feb-16, 09:20	Thailand
+223.204.107.220:8080	anonymous 	Feb-16, 22:23	Thailand
+93.63.142.144:80	anonymous 	Feb-16, 14:16	Italy
+103.243.141.43:80	anonymous 	Feb-15, 18:41	Bangladesh
+144.217.115.70:8080	anonymous 	Feb-17, 11:11	United States
+88.153.231.70:8080	anonymous 	Feb-16, 22:53	Germany
+36.81.184.88:80	high-anonymous 	Feb-17, 07:22	Indonesia
+83.169.214.49:8080	high-anonymous 	Feb-17, 11:01	Russian Federation
+163.121.188.2:8080	high-anonymous 	Feb-16, 08:52	Egypt
+52.34.230.6:8088	high-anonymous 	Feb-16, 20:51	United States
+188.213.175.227:3128	high-anonymous 	Feb-17, 07:14	Italy
+</value>
+  </data>
+  <data name="TB_Sources.Text" xml:space="preserve">
+    <value>http://free-proxy-list.net/anonymous-proxy.html
+http://proxyape.com/
+http://socks5proxies.com/index.php?page=3&amp;action=freeproxy
+http://proxylistchecker.org/proxylists.php?t=anonymous&amp;p=5
+http://proxylistchecker.org/proxylists.php?t=anonymous&amp;p=9
+http://proxytime.ru/http
+http://socks5proxies.com/index.php?page=4&amp;action=freescrapeboxproxies
+http://proxylistchecker.org/proxylists.php?t=anonymous&amp;p=8
+http://notan.h1.ru/hack/xwww/proxy5.html
+http://notan.h1.ru/hack/xwww/proxy4.html
+http://notan.h1.ru/hack/xwww/proxy2.html
+https://www.us-proxy.org/
+http://www.proxylists.net/http_highanon.txt
+http://socks5proxies.com/index.php?action=freescrapeboxproxies
+http://socks5proxies.com/index.php?page=2&amp;action=freescrapeboxproxies
+http://proxygaz.com/country/united-states-of-america-proxy/
+http://multiproxy.org/anon_proxy.htm
+http://socks5proxies.com/index.php?page=2&amp;action=freeproxy
+http://proxylistchecker.org/proxylists.php?t=anonymous
+http://txt.proxyspy.net/proxy.txt
+http://files.c75.in/pub/proxy-list.txt
+http://proxylistchecker.org/proxylists.php?t=anonymous&amp;p=2
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=1
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=2
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=3
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=4
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=5
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=6
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=7
+http://dogdev.net/Proxy/all?after=&amp;working=1
+http://proxy50-50.blogspot.in/feeds/posts/default
+http://blackstarsecurity.com/proxy-list.txt
+http://sslproxies24.blogspot.in/feeds/posts/default
+http://jurnalproxies.blogspot.in/
+http://fr.proxyservers.pro/
+http://proxylistchecker.org/proxylists.php?t=anonymous&amp;p=7
+http://us-proxy-server.blogspot.in/
+http://code.76lt.com/daili/?dd=niming
+http://notan.h1.ru/hack/xwww/proxy3.html
+http://proxylistchecker.org/proxylists.php?t=anonymous&amp;p=3
+http://socks5proxies.com/index.php?page=3&amp;action=freescrapeboxproxies
+http://proxylistchecker.org/proxylists.php?t=anonymous&amp;p=6
+http://guncelproxy.com/Anasayfa/
+http://www.proxylists.net/http.txt
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=13
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=14
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=15
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=16
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=17
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=18
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=19
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=20
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=21
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=22
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=23
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=24
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=25
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=26
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=27
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=28
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=29
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=30
+http://www.rmccurdy.com/scripts/proxy/good.txt
+http://hackingballz.com/proxys/
+http://www.cnproxy.com/proxy1.html
+http://www.cnproxy.com/proxy2.html
+http://proxylists.net/http_highanon.txt
+http://www.proxylists.net/
+http://www.cnproxy.com/proxy3.html
+http://www.cnproxy.com/proxy4.html
+http://www.cnproxy.com/proxy5.html
+http://rebro.weebly.com/proxy-list.html
+http://proxies4google.com/free-proxy-list/
+http://www.proxylisty.com/anonymity/Elite-ip-list-1
+http://www.proxylisty.com/anonymity/Elite-ip-list-2
+http://www.proxylisty.com/anonymity/Elite-ip-list-3
+http://proxyservers.pro/proxy/list/anonymity/anonymous/order/updated/order_dir/desc/page/1
+http://proxyservers.pro/proxy/list/anonymity/elite/order/updated/order_dir/desc/page/1
+http://proxyservers.pro/proxy/list/anonymity/elite/order/updated/order_dir/desc/page/2
+http://proxyservers.pro/proxy/list/anonymity/elite/order/updated/order_dir/desc/page/3
+http://proxyservers.pro/proxy/list/anonymity/elite/order/updated/order_dir/desc/page/4 
+http://proxyservers.pro/proxy/list/anonymity/elite/order/updated/order_dir/desc/page/5
+http://proxyservers.pro/proxy/list/anonymity/elite/order/updated/order_dir/desc/page/6
+http://proxyservers.pro/proxy/list/anonymity/elite/order/updated/order_dir/desc/page/7
+http://proxyservers.pro/proxy/list/anonymity/elite/order/updated/order_dir/desc/page/8
+http://proxyservers.pro/proxy/list/anonymity/elite/order/updated/order_dir/desc/page/9
+http://proxyservers.pro/proxy/list/anonymity/elite/order/updated/order_dir/desc/page/10
+http://proxylistchecker.org/proxylists.php?t=anonymous&amp;p=10
+http://fineproxy.org/eng/?p=6#more-6
+http://proxylistchecker.org/proxylists.php?t=anonymous&amp;p=4
+http://domaingeek.org/static/proxies.txt
+http://proxylist.me/?country=UNITED+STATES&amp;availability=0&amp;protocol=&amp;type=L1
+http://notan.h1.ru/hack/xwww/proxy1.html
+http://rootjazz.com/proxies/proxies.txt
+http://pro1apk.blogspot.in/feeds/posts/default
+http://proxyserverlist-24.blogspot.com/feeds/posts/default
+http://newfreshproxies24.blogspot.com/feeds/posts/default
+http://umbrella-security.blogspot.in/feeds/posts/default
+http://socks5proxies.com/index.php?action=freeproxy
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=8
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=9
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=10
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=11
+http://proxylistchecker.org/proxylists.php?t=elite&amp;p=12
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+</root>
